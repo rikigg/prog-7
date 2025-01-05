@@ -1,0 +1,23 @@
+.question-item {
+    @apply bg-white rounded-lg shadow-sm p-4 mb-4;
+}
+
+.question-item:hover {
+    @apply shadow-md transition-shadow duration-200;
+}
+
+.drag-handle {
+    @apply cursor-move text-gray-400 hover:text-gray-600;
+}
+
+.required-badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800;
+}
+
+.survey-card {
+    @apply bg-white rounded-lg shadow-sm p-6 transition-all duration-200;
+}
+
+.survey-card:hover {
+    @apply shadow-lg transform -translate-y-1;
+}
